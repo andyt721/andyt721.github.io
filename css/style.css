@@ -7,6 +7,7 @@ html {
   z-index: -2;
   background-color: hsl(0, 100%, 100%);
   height: 10.1vw;
+  padding: 0;
 }
 #background-one {
   margin-top: .25vw;
@@ -77,24 +78,31 @@ header #logo img {
     opacity:0;
   }
 }
-.billboard-background {
+body {
+  margin: 0;
+  padding: 0;
+}
+.billboard-default {
   position: relative;
   display: flex;
   justify-content: center;
-  margin: 0vw auto 0vw auto;
-  background-size:contain;
+  margin: 1vw 25vw 0vw 25vw;
+  background-size: contain;
   height: 25vw;
   width: 50vw;
   background-repeat: no-repeat;
   border: .1vw solid black;
   background-image: url('../pictures/billboards/billboard-one.jpg');
   z-index: -1;
+  transition:background-image;
+  transition-duration: 250ms;
+  padding: 0;
 }
 .billboard-one {
   position: relative;
   display: flex;
   justify-content: center;
-  margin: 0vw auto 0vw auto;
+  margin: 1vw 25vw 0vw 25vw;
   background-size:contain;
   height: 25vw;
   width: 50vw;
@@ -102,12 +110,15 @@ header #logo img {
   border: .1vw solid black;
   background-image: url('../pictures/billboards/billboard-one.jpg');
   z-index: 0;
+  transition:background-image;
+  transition-duration: 250ms;
+  padding: 0;
 }
 .billboard-two {
   position: relative;
   display: flex;
   justify-content: center;
-  margin: 0vw auto 0vw auto;
+  margin: 1vw 25vw 0vw 25vw;
   background-size:contain;
   height: 25vw;
   width: 50vw;
@@ -115,12 +126,15 @@ header #logo img {
   border: .1vw solid black;
   background-image: url('../pictures/billboards/billboard-two.jpg');
   z-index: 0;
+  transition:background-image;
+  transition-duration: 250ms;
+  padding: 0;
 }
 .billboard-three {
   position: relative;
   display: flex;
   justify-content: center;
-  margin: 0vw auto 0vw auto;
+  margin: 1vw 25vw 0vw 25vw;
   background-size:contain;
   height: 25vw;
   width: 50vw;
@@ -128,29 +142,45 @@ header #logo img {
   border: .1vw solid black;
   background-image: url('../pictures/billboards/billboard-three.jpg');
   z-index: 0;
+  transition:background-image;
+  transition-duration: 250ms;
+  padding: 0;
 }
+
 .billboard-buttons {
   position: relative;
-  margin: 0vw auto 1vw auto;
   display: flex;
   justify-content: center;
+  width: 50vw;
+  height: 1.5vw;
+  margin: 0 25vw 0 25vw;
+  background-color: black;
+  border: .1vw solid black;
+  padding: 0;
 }
-.billboard-buttons li {
+body li {
   display: inline-block;
   height: .75vw;
   width: .75vw;
-  background-color: black;
-  margin-left: 1vw;
-  margin-right: 1vw;
+  background-color: white;
+  margin: auto .75vw auto .75vw;
+  border-radius: 1vw;
+  cursor: pointer;
+  padding: 0;
 }
-
+.current-billboard-button {
+  background-color: hsl(0, 5%, 70%);
+  transition: background-color;
+  transition-duration: 250ms;
+}
 footer {
-  margin-top: 0vw;
+  margin-top: 1vw;
   display: flex;
   justify-content: center;
   background-color: hsl(0, 5%, 85%);
-  border: .1vw solid black;
-  padding-top: 0vw;
+  padding: 0;
+  border-top: .05vw solid black;
+  border-bottom: .05vw solid black;
 }
 footer div {
   margin-left: 5vw;
