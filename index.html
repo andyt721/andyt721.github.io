@@ -1,33 +1,96 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> Terpstra Equipment </title>
-    <link href="./Resources/style.css" type="text/css" rel="stylesheet">
+    <title>Terpstra Equipment</title>
+    <link rel="shortcut icon" href="./pictures/logos/favicon.png" type="image/x-icon">
+    <link rel="icon" href="./pictures/logos/favicon.png" type="image/x-icon">
+    <link href="./css/index/style.css" type="text/css" rel="stylesheet"></link>
+    <script src="./js/jquery-min.js"></script>
+    <script src="./js/main.js"></script>
   </head>
-  <body>
-      <h1>
-        Terpstra Equipment
-      </h1>
-      <p>Providing Sales and Service of Outdoor Power Products for Over 25 Years</p>
-      <p class="contents">
+  <header class='large-header'>
+    <div class="background">
+      <div id="background-one"></div>
+      <div id="background-two"></div>
+    </div>
+    <span id="logo">
+      <a href="./index.html">
+        <img src= "./pictures/logos/TERP Logo.png"/>
+      </a>
+    </span>
+    <span class="navigation-bar">
+      <div class="info-bar">
         <nav>
-          <a href="#LawnGarden"> Lawn & Garden </a>
-          <a href="#CompactTractors"> Compact Tractors </a>
-          <a href="#Generators"> Generators </a>
-          <a href="#SnowRemoval"> Snow Removal </a>
+          <a id='current-page' href="./index.html">Home</a>
+          <a href="./parts.html">Parts</a>
+          <a href="./service.html">Service</a>
+          <a href="./financing.html">Financing</a>
+          <a href="./our-story.html">About Us</a>
+          <a href="./contact.html">Contact</a>
         </nav>
-      </p>
-      <div id="LawnGarden" class="ProductType">
-        <h2>Lawn & Garden</h2>
       </div>
-      <div id="CompactTractors" class="ProductType">
-        <h2>Compact Tractors</h2>
+      <div class="product-bar">
+        <nav>
+          <div>
+            <img class="show-image" src = "./pictures/product-bar/lawn-and-garden.png"/>
+            <a href="./lawn-and-garden.html">Lawn & Garden</a>
+          </div>
+          <div>
+            <img class="show-image" src = "./pictures/product-bar/compact-tractors.png"/>
+            <a href="./compact-tractors.html">Compact Tractors</a>
+          </div>
+          <div>
+            <img class="show-image" src = "./pictures/product-bar/snow-removal.png"/>
+            <a href="./snow-removal.html">Snow Removal</a>
+          </div>
+          <div>
+            <img class="show-image" src = "./pictures/product-bar/generators.png"/>
+            <a href="./generators.html">Generators</a>
+          </div>
+          <div>
+            <img class="show-image" src = "./pictures/product-bar/battery-powered.png"/>
+            <a href="./battery-powered.html">Battery Powered</a>
+          </div>
+          <div>
+            <img class="show-image" src = "./pictures/product-bar/used-equipment.png"/>
+            <a href="./used-equipment.html">Used Equipment</a>
+          </div>
+        </nav>
       </div>
-      <div id="Generators" class="ProductType">
-        <h2>Generators</h2>
+    </span>
+  </header>
+  <body>
+    <div class="billboard">
+      <div class='billboard-background'></div>
+      <div class='billboard-buttons'>
+        <ul>
+          <li id='billboard-one'></li>
+          <li id='billboard-two'></li>
+          <li id='billboard-three'></li>
+        </ul>
       </div>
-      <div id="SnowRemoval" class="ProductType">
-        <h2>Snow Removal</h2>
-      </div>
+    </div>
+    <div class="current-deals">
+    </div>
   </body>
+
+  <footer>
+    <div class="address">
+      <h3>Terpstra Equipment</h3>
+      <p>1007406 Ontario Inc.</p>
+      <p>39 Prince Edward Road 3</p>
+      <p>Belleville, Ontario K8N 4Z7</p>
+    </div>
+    <div class="contact">
+      <h3>Contact Information</h3>
+      <p>Email: al@terp.ca</p>
+      <p>Phone: 613-967-2731</p>
+      <p>Fax: 613-967-7967</p>
+    </div>
+    <div class="hours">
+      <h3>Hours of Operation</h3>
+      <p>Mon to Fri: 8AM to 5PM</p>
+      <p>Saturdays: 8AM to 12PM</p>
+    </div>
+  </footer>
 </html>
