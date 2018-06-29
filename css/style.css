@@ -92,7 +92,7 @@ body {
   width: 50vw;
   background-repeat: no-repeat;
   border: .1vw solid black;
-  background-image: url('../pictures/billboards/billboard-one.jpg');
+  background-image: url('../Pictures/billboards/billboard-one.jpg');
   z-index: -1;
   transition:background-image;
   transition-duration: 250ms;
@@ -108,7 +108,7 @@ body {
   width: 50vw;
   background-repeat: no-repeat;
   border: .1vw solid black;
-  background-image: url('../pictures/billboards/billboard-one.jpg');
+  background-image: url('../Pictures/billboards/billboard-one.jpg');
   z-index: 0;
   transition:background-image;
   transition-duration: 250ms;
@@ -124,7 +124,7 @@ body {
   width: 50vw;
   background-repeat: no-repeat;
   border: .1vw solid black;
-  background-image: url('../pictures/billboards/billboard-two.jpg');
+  background-image: url('../Pictures/billboards/billboard-two.jpg');
   z-index: 0;
   transition:background-image;
   transition-duration: 250ms;
@@ -140,7 +140,7 @@ body {
   width: 50vw;
   background-repeat: no-repeat;
   border: .1vw solid black;
-  background-image: url('../pictures/billboards/billboard-three.jpg');
+  background-image: url('../Pictures/billboards/billboard-three.jpg');
   z-index: 0;
   transition:background-image;
   transition-duration: 250ms;
