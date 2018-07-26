@@ -4,12 +4,6 @@ $(document).ready(function(){
     $(this).siblings().toggleClass('show-image');
   });
 
-  //Loading large-header
-  $('#large-header').load('../large-header.html');
-
-  //Loading main-footer
-  $('#main-footer').load('../footer.html');
-
   //Setting up the billboard transitions
   let currentBillboard = 1;
   $('#billboard-background').addClass('billboard-one');
