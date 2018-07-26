@@ -1,6 +1,6 @@
 $(document).ready(function(){
   //This will cause images to show above the product links when a mouse hovers.
-  $('.product-bar a').hover(function () {
+  $('.product-bar').hover(function () {
     $(this).siblings().toggleClass('show-image');
   });
 
